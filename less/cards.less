@@ -16,6 +16,19 @@
   margin-bottom: 15px;
   outline: none;
   cursor:pointer;
+  
+  &:active {
+    background-color: #EFEFEF;
+    -webkit-transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    outline: none;
+  }
+  &:hover, &.highlight {
+    background-color: #EFEFEF;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+
 
   &.card-outing {
     .infoa {
@@ -242,7 +255,7 @@
 
       .parent-activity {
         display: flex;
-        width: 80px;
+        width: 90px;
         overflow: hidden;
         height: 30px;
       }
