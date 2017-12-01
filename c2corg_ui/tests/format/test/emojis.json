@@ -1,0 +1,7 @@
+[
+  {
+    "id":"Simple emoji",
+    "text":":paragliding:",
+    "expected":"<p><img alt=\":paragliding:\" class=\"emoji\" src=\"/static/img/documents/activities/paragliding.svg\"></p>"
+  }
+]
